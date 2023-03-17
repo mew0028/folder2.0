@@ -1,0 +1,33 @@
+getgenv().Key = 'AQW35R5M1MR8KB1CO5GN1THI5JOE9FQHZ15RS9HHC3KZ2RC6'
+repeat wait() until game:IsLoaded()
+repeat wait() local a, b = pcall(function() FarmTable = {"Lucky Arrow"}
+SellTable = {""}
+
+minplayers = 2
+maxplayers = 20
+
+hopdelay = 0 -- Change it if you want. (sec.) Supposed to be 0.
+proscam = true
+autosell = false
+autoarcade = false
+convertcandies = true
+sellwhenmax = false
+pickupdelay = 1
+
+webhookurl = "https://discord.com/api/webhooks/1054742615255420938/hrP5r8eABwJFY64tIHzFpd9skRj5_K6Ibox89bF_ngbj77lGZbhNK1plk22rsco2pWqt" -- not required.
+pinginwebhook = true
+
+StandFarm = {
+    ["standroll"] = false,
+    ["shiniesonly"] = true,
+    ["keepallshinies"] = false,
+    ["requiemfarm"] = false,
+    ["useluckys"] = false,
+    ["minarrows"] = 1,
+    ["maxpity"] = 10.0, -- Stops stand rolling at certain value of pity, 10.0 - disabled.
+
+    ["SkinsTable"] = {"Snake of Christmas Past", "Blade of the Exile"},
+    ["StandsTable"] = {""}
+}
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/xBosil/878e185d92d18e7c3943eba0681209b3/raw", true))() end) if not a then wait(30) end until a
